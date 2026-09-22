@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="630.902" height="24" viewBox="0 0 630.902 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="navigation">
+<line id="progress line" x1="540.818" y1="12.5" x2="4.77202e-08" y2="12.5" stroke="white"/>
+<g id="right arrow">
+<path id="Vector" d="M610.902 12L626.902 12M620.902 6L626.902 12L620.902 18" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="left arrow">
+<path id="Vector_2" d="M585.56 12L569.56 12M575.56 6L569.56 12L575.56 18" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TDC Living – Premium furnished condos in Tour des Canadiens, downtown Montréal. Steps from Bell Centre, McGill, and more. Self check-in. Book your stay today." />
+  <title>TDC Living – Your Montreal Stay, Made Easy</title>
+  <link rel="stylesheet" href="public/styles.css" />
+  
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="tdc-site-header site-header" data-header>
+  <div class="tdc-site-header__inner">
+
+    <a class="tdc-site-header__brand" href="#" aria-label="TDCLiving home">
+      <img src="public/assets/logo-light.svg" alt="" />
+    </a>
+
+    <nav class="tdc-site-header__nav" aria-label="Primary navigation">
+      <a href="#">Student Housing</a>
+      <a href="#">Executive Rentals</a>
+      <a href="#">Executive Rentals</a>
+      <a href="#">Events</a>
+    </nav>
+
+    <div class="tdc-site-header__actions">
+      <button class="tdc-site-header__account" type="button" aria-label="Account">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="7" r="3.5"></circle>
+          <path d="M5.5 21c.4-4.2 2.6-6.5 6.5-6.5s6.1 2.3 6.5 6.5"></path>
+        </svg>
+      </button>
+
+      <a class="tdc-site-header__cta" href="#">
+        <span>Book my stay</span>
+        <span aria-hidden="true">→</span>
+      </a>
+
+      <button class="tdc-site-header__menu" type="button"
+              aria-label="Open menu" aria-controls="tdc-mobile-nav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="tdc-mobile-nav mobileNav" id="tdc-mobile-nav" hidden>
+<nav aria-label="Mobile navigation">
+<a href="#">Student Housing</a>
+<a href="#">Executive Rentals</a>
+<a href="#">Executive Rentals</a>
+<a href="#">Events</a>
+</nav>
+</div>
+</header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero-bg" aria-hidden="true">
+        <img src="public/assets/f3323.png" alt="" />
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-text-block">
+          <div>
+            <p class="hero-eyebrow">Tour des Canadiens · Montréal</p>
+            <div style="position:relative; display:inline-block;">
+              <h1 class="hero-title">
+                Your Montreal Stay,
+                <em>made easy.</em>
+              </h1>
+              <img
+                src="public/assets/f5e0c.svg"
+                alt=""
+                class="hero-shape-underline"
+                aria-hidden="true"
+              />
+            </div>
+            <p class="hero-subtitle" style="margin-top:30px;">
+              Premium condos in the heart of downtown Montréal. Feel at home, steps from Bell Centre, McGill and more.
+            </p>
+          </div>
+
+          <div class="hero-social-proof">
+            <div class="hero-avatars">
+              <img src="public/assets/6c1c1.png" alt="Happy guest" />
+              <img src="public/assets/3484b.png" alt="Happy guest" />
+              <img src="public/assets/a784b.png" alt="Happy guest" />
+            </div>
+            <div class="hero-rating-block">
+              <div class="hero-stars" role="img" aria-label="5 stars">
+                <img src="public/assets/d73c9.svg" alt="" />
+                <img src="public/assets/d73c9.svg" alt="" />
+                <img src="public/assets/d73c9.svg" alt="" />
+                <img src="public/assets/d73c9.svg" alt="" />
+                <img src="public/assets/d73c9.svg" alt="" />
+              </div>
+              <p class="hero-rating-text">4.9/5 Guest Rating</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Booking Form -->
+        <div class="booking-form-wrap" id="booking">
+          <form class="booking-form" role="search" aria-label="Check availability">
+            <div class="booking-field">
+              <label for="stay-type">Stay</label>
+              <select id="stay-type" name="stay">
+                <option value="studio">Studio</option>
+                <option value="1bed">1 Bedroom</option>
+                <option value="2bed">2 Bedrooms</option>
+              </select>
+            </div>
+            <div class="booking-field">
+              <label for="check-in">Check In</label>
+              <input type="date" id="check-in" name="checkin" value="2026-08-20" />
+            </div>
+            <div class="booking-field">
+              <label for="check-out">Check Out</label>
+              <input type="date" id="check-out" name="checkout" value="2026-08-24" />
+            </div>
+            <div class="booking-field">
+              <label for="guests">Guests</label>
+              <select id="guests" name="guests">
+                <option value="1">1 Guest</option>
+                <option value="2" selected>2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+              </select>
+            </div>
+            <div class="booking-field">
+              <button type="submit" class="btn-primary">
+                Check Availability
+                <img src="public/assets/d14d0.svg" alt="" class="arrow-icon" />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TRUST STRIP ===================== -->
+    <div class="trust-strip" aria-label="Features">
+      <div class="trust-strip-track" aria-hidden="true">
+        <span class="trust-strip-item">4.9&#9733; Guest Rated</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+        <span class="trust-strip-item">Prime Locations</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+        <span class="trust-strip-item">Premium Stays</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+        <span class="trust-strip-item">Fully Furnished</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+        <span class="trust-strip-item">Self Check-In</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+        <span class="trust-strip-item">Downtown Living</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+        <span class="trust-strip-item">Steps from Bell Centre</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+        <span class="trust-strip-item">Made for Montr&#233;al</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+        <span class="trust-strip-item">4.9&#9733; Guest Rated</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+        <span class="trust-strip-item">Prime Locations</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+        <span class="trust-strip-item">Premium Stays</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+        <span class="trust-strip-item">Fully Furnished</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+        <span class="trust-strip-item">Self Check-In</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+        <span class="trust-strip-item">Downtown Living</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+        <span class="trust-strip-item">Steps from Bell Centre</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+        <span class="trust-strip-item">Made for Montr&#233;al</span>
+        <img src="public/assets/969e5.svg" alt="" class="trust-strip-dot" />
+      </div>
+    </div>
+
+    <!-- ===================== STAY WHERE MONTREAL HAPPENS ===================== -->
+    <section class="destination-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">The Best of Montreal, right outside</p>
+          <h2>Stay where <em>Montreal happens.</em></h2>
+          <p class="body-lg" style="margin-top:20px; color:#000;">
+            Wake up above the city, step outside into the action, and have Montral at your doorstep.
+          </p>
+        </div>
+      </div>
+
+      <div class="destination-carousel" role="region" aria-label="Nearby destinations">
+        <div class="destination-carousel-track" id="destCarousel">
+          <article class="destination-card">
+            <figure class="destination-card-figure">
+              <img src="public/assets/565c8.png" alt="Bell Centre arena in downtown Montreal" loading="lazy" />
+            </figure>
+            <div class="destination-card-content">
+              <h3 class="destination-card-name">Bell Centre</h3>
+              <span class="distance-tag">7 min away</span>
+            </div>
+          </article>
+          <article class="destination-card" style="margin-top:30px;">
+            <figure class="destination-card-figure">
+              <img src="public/assets/0aeed.png" alt="Atrium Le 1000 underground shopping complex" loading="lazy" />
+            </figure>
+            <div class="destination-card-content">
+              <h3 class="destination-card-name">Atrium Le 1000</h3>
+              <span class="distance-tag">4 min away</span>
+            </div>
+          </article>
+          <article class="destination-card">
+            <figure class="destination-card-figure">
+              <img src="public/assets/7ee18.png" alt="Old Montreal historic district" loading="lazy" />
+            </figure>
+            <div class="destination-card-content">
+              <h3 class="destination-card-name">Old Montreal</h3>
+              <span class="distance-tag">27 min away</span>
+            </div>
+          </article>
+          <article class="destination-card" style="margin-top:30px;">
+            <figure class="destination-card-figure">
+              <img src="public/assets/fb6bc.png" alt="Concordia University campus" loading="lazy" />
+            </figure>
+            <div class="destination-card-content">
+              <h3 class="destination-card-name">Concordia University</h3>
+              <span class="distance-tag">15 min away</span>
+            </div>
+          </article>
+          <article class="destination-card">
+            <figure class="destination-card-figure">
+              <img src="public/assets/47647.png" alt="Montreal Science Centre and IMAX" loading="lazy" />
+            </figure>
+            <div class="destination-card-content">
+              <h3 class="destination-card-name">Science Center/IMAX</h3>
+              <span class="distance-tag">24 min away</span>
+            </div>
+          </article>
+          <article class="destination-card" style="margin-top:30px;">
+            <figure class="destination-card-figure">
+              <img src="public/assets/565c8.png" alt="Bell Centre hockey arena" loading="lazy" />
+            </figure>
+            <div class="destination-card-content">
+              <h3 class="destination-card-name">Bell Centre</h3>
+              <span class="distance-tag">7 min away</span>
+            </div>
+          </article>
+          <article class="destination-card">
+            <figure class="destination-card-figure">
+              <img src="public/assets/0aeed.png" alt="Atrium Le 1000 shopping" loading="lazy" />
+            </figure>
+            <div class="destination-card-content">
+              <h3 class="destination-card-name">Atrium Le 1000</h3>
+              <span class="distance-tag">4 min away</span>
+            </div>
+          </article>
+          <article class="destination-card" style="margin-top:30px;">
+            <figure class="destination-card-figure">
+              <img src="public/assets/7ee18.png" alt="Old Montreal waterfront" loading="lazy" />
+            </figure>
+            <div class="destination-card-content">
+              <h3 class="destination-card-name">Old Montreal</h3>
+              <span class="distance-tag">27 min away</span>
+            </div>
+          </article>
+          <article class="destination-card">
+            <figure class="destination-card-figure">
+              <img src="public/assets/fb6bc.png" alt="Concordia University" loading="lazy" />
+            </figure>
+            <div class="destination-card-content">
+              <h3 class="destination-card-name">Concordia Uni.</h3>
+              <span class="distance-tag">15 min away</span>
+            </div>
+          </article>
+          <article class="destination-card" style="margin-top:30px;">
+            <figure class="destination-card-figure">
+              <img src="public/assets/47647.png" alt="Montreal Science Centre" loading="lazy" />
+            </figure>
+            <div class="destination-card-content">
+              <h3 class="destination-card-name">Science Center/IMAX</h3>
+              <span class="distance-tag">24 min away</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TOUR DES CANADIENS 2 ===================== -->
+    <section class="property-section" id="tdc2" aria-label="Tour des Canadiens 2">
+      <div class="container">
+        <div class="property-section-header">
+          <div class="caption-tag tag">
+            Built in 2019
+            <span class="tag-dot"></span>
+            54 Storeys
+            <span class="tag-dot"></span>
+            590 Units
+          </div>
+          <h2>Tour Des <em>Canadiens 2</em></h2>
+          <p class="property-description">
+            Tour des Canadiens 2 is part of an ambitious $2-billion, mixed-use, master-planned development that will extend Montreal's downtown core. The community includes world-class residential, office and retail, and urban park space with easy access to Montreal's bus, metro, and suburban train systems.
+          </p>
+        </div>
+
+        <div class="property-grid">
+          <article class="property-card">
+            <figure class="property-card-figure">
+              <img src="public/assets/39b17.png" alt="Fully furnished 1-bedroom condo at Tour des Canadiens 2" loading="lazy" />
+            </figure>
+            <div class="property-card-body">
+              <div>
+                <div class="facility-tag">
+                  Studio
+                  <span class="facility-dot"></span>
+                  1 bed
+                  <span class="facility-dot"></span>
+                  1 bath
+                </div>
+                <h3 class="property-card-title" style="margin-top:10px;">Fully Furnished &#8211; 1 Bed, DT Montreal Concordia ETS</h3>
+              </div>
+              <a href="#booking" class="btn-primary btn-sm">
+                Explore
+                <img src="public/assets/8a527.svg" alt="" class="arrow-icon" />
+              </a>
+            </div>
+          </article>
+
+          <article class="property-card">
+            <figure class="property-card-figure">
+              <img src="public/assets/d5fa3.png" alt="Luxury studio suite at Tour des Canadiens 2 near Bell Centre" loading="lazy" />
+            </figure>
+            <div class="property-card-body">
+              <div>
+                <div class="facility-tag">
+                  Studio
+                  <span class="facility-dot"></span>
+                  1 bed
+                  <span class="facility-dot"></span>
+                  1 bath
+                </div>
+                <h3 class="property-card-title" style="margin-top:10px;">Luxury Studio in DT Montreal &#8211; Bell Center McGill</h3>
+              </div>
+              <a href="#booking" class="btn-primary btn-sm">
+                Explore
+                <img src="public/assets/8a527.svg" alt="" class="arrow-icon" />
+              </a>
+            </div>
+          </article>
+
+          <article class="property-card">
+            <figure class="property-card-figure">
+              <img src="public/assets/6020c.png" alt="Luxury studio with downtown and river views at TDC2" loading="lazy" />
+            </figure>
+            <div class="property-card-body">
+              <div>
+                <div class="facility-tag">
+                  Studio
+                  <span class="facility-dot"></span>
+                  1 bed
+                  <span class="facility-dot"></span>
+                  1 bath
+                </div>
+                <h3 class="property-card-title" style="margin-top:10px;">Luxury Studio w/ DT &amp; River Views Bell Center HEC</h3>
+              </div>
+              <a href="#booking" class="btn-primary btn-sm">
+                Explore
+                <img src="public/assets/8a527.svg" alt="" class="arrow-icon" />
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TOUR DES CANADIENS 3 ===================== -->
+    <section class="property-section" id="tdc3" aria-label="Tour des Canadiens 3" style="border-bottom:none; padding-top:40px;">
+      <div class="container">
+        <div class="property-section-header">
+          <div class="caption-tag tag">
+            Built in 2022
+            <span class="tag-dot"></span>
+            54 Storeys
+            <span class="tag-dot"></span>
+            565 Units
+          </div>
+          <h2>Tour Des <em>Canadiens 3</em></h2>
+          <p class="property-description">
+            Tour des Canadiens 3 is the newest and most anticipated part of downtown Montreal's $2 Billion Quad Windsor neighbourhood! With an above-ground connection to the subway and RESO network, TDC3 is just minutes from shopping, dining, and the cultural heart of Montreal.
+          </p>
+        </div>
+
+        <div class="property-grid-2col">
+          <article class="property-card">
+            <figure class="property-card-figure">
+              <img src="public/assets/7755f.png" alt="Luxury studio with city views at Tour des Canadiens 3 near Concordia and McGill" loading="lazy" />
+            </figure>
+            <div class="property-card-body">
+              <div>
+                <div class="facility-tag">
+                  Studio
+                  <span class="facility-dot"></span>
+                  1 bed
+                  <span class="facility-dot"></span>
+                  1 bath
+                </div>
+                <h3 class="property-card-title" style="margin-top:10px;">Luxury Studio w/ DT &amp; City Views Concordia McGill</h3>
+              </div>
+              <a href="#booking" class="btn-primary btn-sm">
+                Explore
+                <img src="public/assets/8a527.svg" alt="" class="arrow-icon" />
+              </a>
+            </div>
+          </article>
+
+          <article class="property-card">
+            <figure class="property-card-figure">
+              <img src="public/assets/9d4b1.png" alt="Luxury studio with city views at TDC3 near ETS and Bell Centre" loading="lazy" />
+            </figure>
+            <div class="property-card-body">
+              <div>
+                <div class="facility-tag">
+                  Studio
+                  <span class="facility-dot"></span>
+                  1 bed
+                  <span class="facility-dot"></span>
+                  1 bath
+                </div>
+                <h3 class="property-card-title" style="margin-top:10px;">Luxury Studio w/ DT &amp; City Views ETS Bell Centre</h3>
+              </div>
+              <a href="#booking" class="btn-primary btn-sm">
+                Explore
+                <img src="public/assets/8a527.svg" alt="" class="arrow-icon" />
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== HOCKEY CTA ===================== -->
+    <section class="hockey-cta" aria-label="Life's a Game – Live It">
+      <div class="hockey-cta-bg" aria-hidden="true">
+        <img src="public/assets/5983c.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="hockey-cta-content">
+          <span class="hockey-cta-tagline">Life's a Game</span>
+          <p class="hockey-cta-headline">LIVE IT!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section class="testimonial-section" aria-label="Customer Reviews">
+      <div class="container">
+        <div class="section-heading" style="margin-bottom:60px;">
+          <h2>Customer <em>Reviews</em></h2>
+        </div>
+
+        <div class="testimonial-inner">
+          <figure class="testimonial-figure">
+            <img src="public/assets/39b17.png" alt="Guest photo" loading="lazy" />
+          </figure>
+
+          <div class="testimonial-content-wrap">
+            <div class="testimonial-card" id="testimonialCard">
+              <blockquote class="testimonial-quote">
+                "&#8220;"Sed hendrerit mauris rhoncus elementum dui quam id. Quis donec euismod sollicitudin libero. Et quis non elit at ligula purus cursus. Eget ipsum semper metus aliquam facilisis volutpat. Gravida quisque nullam in nib&#8221;
+              </blockquote>
+
+              <div class="testimonial-footer">
+                <div>
+                  <p class="testimonial-name">Wade Warren</p>
+                  <p class="testimonial-location">Montreal, Canada</p>
+                </div>
+                <div class="testimonial-nav">
+                  <button class="btn-circle btn-circle-ghost" aria-label="Previous review" id="prevTestimonial">
+                    <img src="public/assets/3fbb4.svg" alt="" style="width:24px;height:24px;transform:rotate(-90deg);" />
+                  </button>
+                  <button class="btn-circle" aria-label="Next review" id="nextTestimonial">
+                    <img src="public/assets/d14d0.svg" alt="" style="width:24px;height:24px;transform:rotate(90deg);" />
+                  </button>
+                </div>
+              </div>
+
+              <a href="#reviews" class="testimonial-view-all">
+                View All Reviews
+                <img src="public/assets/c6335.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== RESO BLOCK ===================== -->
+    <section class="reso-section" aria-label="RESO Montreal underground city network">
+      <div class="container">
+        <div class="reso-inner">
+          <div class="reso-content">
+            <img src="public/assets/1b916.png" alt="RESO – Montreal Underground City logo" class="reso-logo" loading="lazy" />
+            <p class="reso-eyebrow">Montreal's future LRT (REM) will be the</p>
+            <div>
+              <p class="reso-stat">4th Largest</p>
+              <p class="reso-stat-sub">automated network in the world at 67km</p>
+            </div>
+            <p class="reso-body">over $6 billion dollar investment</p>
+            <a href="#contact" class="btn-primary" style="margin-top:10px; width:fit-content;">
+              More Information
+            </a>
+          </div>
+
+          <div class="reso-video" role="button" tabindex="0" aria-label="Play video about RESO Montreal underground city" id="resoVideo">
+            <img src="public/assets/tdc3-video.jpg" alt="RESO Montreal underground city tour video thumbnail" class="video-thumb" loading="lazy" />
+            <img src="public/assets/3abe8.svg" alt="" class="play-btn" aria-hidden="true" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQS ===================== -->
+    <section class="faq-section" id="faqs" aria-label="Frequently Asked Questions">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Frequently <em>Asked Questions</em></h2>
+        </div>
+
+        <div class="faq-list" role="list">
+          <div class="faq-item open" role="listitem">
+            <button class="faq-question" aria-expanded="true" aria-controls="faq-answer-1">
+              <span class="faq-question-text">What time is check-in and check-out?</span>
+              <img src="public/assets/342f3.svg" alt="" class="faq-icon faq-plus-icon" aria-hidden="true" />
+              <img src="public/assets/9b532.svg" alt="" class="faq-icon faq-minus-icon" aria-hidden="true" />
+            </button>
+            <div class="faq-answer" id="faq-answer-1" role="region">
+              Tour des Canadiens 2 (TDC2) and Tour des Canadiens 3 (TDC3) are two modern residential towers located in the heart of downtown Montr&#233;al, right beside the Bell Centre and close to restaurants, shopping, public transit, and major attractions.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">
+              <span class="faq-question-text">What is your cancellation policy?</span>
+              <img src="public/assets/342f3.svg" alt="" class="faq-icon faq-plus-icon" aria-hidden="true" />
+              <img src="public/assets/9b532.svg" alt="" class="faq-icon faq-minus-icon" aria-hidden="true" />
+            </button>
+            <div class="faq-answer" id="faq-answer-2" role="region">
+              We offer flexible cancellation policies depending on the booking type. Most stays can be cancelled up to 48 hours before check-in for a full refund. Please review the specific policy on your listing page.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3">
+              <span class="faq-question-text">How close are the properties to Bell Centre?</span>
+              <img src="public/assets/342f3.svg" alt="" class="faq-icon faq-plus-icon" aria-hidden="true" />
+              <img src="public/assets/9b532.svg" alt="" class="faq-icon faq-minus-icon" aria-hidden="true" />
+            </button>
+            <div class="faq-answer" id="faq-answer-3" role="region">
+              Both TDC2 and TDC3 are located within a 7-minute walk from Bell Centre, home of the Montreal Canadiens. You're in the heart of the action on game nights!
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4">
+              <span class="faq-question-text">Is self check-in available?</span>
+              <img src="public/assets/342f3.svg" alt="" class="faq-icon faq-plus-icon" aria-hidden="true" />
+              <img src="public/assets/9b532.svg" alt="" class="faq-icon faq-minus-icon" aria-hidden="true" />
+            </button>
+            <div class="faq-answer" id="faq-answer-4" role="region">
+              Yes! All of our units offer self check-in using smart lock technology. You will receive your access code 24 hours before your arrival.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-5">
+              <span class="faq-question-text">Can I extend my stay?</span>
+              <img src="public/assets/342f3.svg" alt="" class="faq-icon faq-plus-icon" aria-hidden="true" />
+              <img src="public/assets/9b532.svg" alt="" class="faq-icon faq-minus-icon" aria-hidden="true" />
+            </button>
+            <div class="faq-answer" id="faq-answer-5" role="region">
+              Absolutely. If your unit is available, we are happy to extend your stay. Please contact us at least 24 hours before your original check-out date.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== NEWS & ARTICLES ===================== -->
+    <section class="news-section" aria-label="News and Articles">
+      <div class="container">
+        <div class="section-heading">
+          <h2>News &amp; <em>Articles</em></h2>
+        </div>
+
+        <div class="news-grid">
+          <article class="blog-card">
+            <figure class="blog-card-figure">
+              <img src="public/assets/7755f.png" alt="Bell Centre neighbourhood guide" loading="lazy" />
+            </figure>
+            <div class="blog-card-body">
+              <h3 class="blog-card-title">Best Things to Do Near Bell Centre</h3>
+              <div class="blog-meta">
+                <span>Montreal Travel Guides</span>
+                <span class="blog-meta-sep" aria-hidden="true"></span>
+                <time datetime="2024-06-03">June 3, 2024</time>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <figure class="blog-card-figure">
+              <img src="public/assets/9d4b1.png" alt="Staying near Bell Centre for a Canadiens game" loading="lazy" />
+            </figure>
+            <div class="blog-card-body">
+              <h3 class="blog-card-title">Where to Stay for a Canadiens Game</h3>
+              <div class="blog-meta">
+                <span>Montreal Travel Guides</span>
+                <span class="blog-meta-sep" aria-hidden="true"></span>
+                <time datetime="2024-06-03">June 3, 2024</time>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <figure class="blog-card-figure">
+              <img src="public/assets/3fd07.png" alt="Downtown Montreal 48-hour itinerary" loading="lazy" />
+            </figure>
+            <div class="blog-card-body">
+              <h3 class="blog-card-title">48 Hours in Downtown Montreal</h3>
+              <div class="blog-meta">
+                <span>Montreal Travel Guides</span>
+                <span class="blog-meta-sep" aria-hidden="true"></span>
+                <time datetime="2024-06-03">June 3, 2024</time>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="news-cta">
+          <a href="#blog" class="btn-primary">View all blogs</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA 2 ===================== -->
+
+    <section class="cta-2-section" aria-label="Ready to experience Montreal">
+      <div class="cta-2-inner">
+        <div class="cta-2-photos left" aria-hidden="true">
+          <img src="public/assets/lt1.jpg" alt="" loading="lazy" />
+          <img src="public/assets/lt2.png" alt="" loading="lazy" />
+        </div>
+        <div class="content">
+          <h2 class="cta-2-title">Ready to <em>experience Montreal?</em></h2>
+          <p class="cta-2-sub">Find your stay at Tour des Canadiens.</p>
+          <div class="cta-2-buttons">
+          <a href="#tdc2" class="btn-primary">
+            Explore TDC2
+            <img src="public/assets/d14d0.svg" alt="" class="arrow-icon" />
+          </a>
+          <a href="#tdc3" class="btn-primary">
+            Explore TDC3
+            <img src="public/assets/d14d0.svg" alt="" class="arrow-icon" />
+          </a>
+        </div>
+        </div>
+        
+        <div class="cta-2-photos right" aria-hidden="true">
+          <img src="public/assets/lt3.jpg" alt="" loading="lazy" />
+          <img src="public/assets/lt4.jpg" alt="" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+ <footer class="tdc-footer">
+  <div class="tdc-footer__grid">
+    <section class="tdc-footer__brand">
+      <a class="tdc-footer__logo" href="#" aria-label="TDCLiving home">
+      <img src="public/assets/logo-light.svg" alt="" class="logo-icon" />
+      </a>
+      <p>Explore the world with confidence, comfort<br class="tdc-footer__desktop"> &amp; crafted experiences.</p>
+      <nav class="tdc-footer__social" aria-label="Social media">
+        <a href="#" aria-label="Facebook"><img src="public/assets/fb-icon.svg" alt="Facebook"/></a>
+        <a href="#" aria-label="Instagram"><img src="public/assets/insta-icon.svg" alt="Instagram"/></a>
+        <a href="#" aria-label="LinkedIn"><img src="public/assets/linkedin-icon.svg" alt="LinkedIn"/></a>
+      </nav>
+    </section>
+    <section class="tdc-footer__col">
+      <h2>Contact Info</h2>
+      <address>
+        1909 Avenue De<br>
+        scandiens–De-Montréal,<br>
+        Montreal, Quebec H4b 5gO,<br>
+        Canada
+        <a href="tel:+15146670716">☎&nbsp; 514–667–0716</a>
+        <a href="mailto:tdcliving.ca">✉&nbsp; tdcliving.ca</a>
+      </address>
+    </section>
+    <section class="tdc-footer__col">
+      <h2>Properties</h2>
+      <nav>
+        <a href="#">Explore Condos</a><a href="#">Tour des Canadiens 2</a>
+        <a href="#">Tour des Canadiens 3</a><a href="#">Near by properties</a>
+        <a href="#">Parking</a><a href="#">Lockers</a>
+      </nav>
+    </section>
+    <section class="tdc-footer__col tdc-footer__quick">
+      <h2>Quick Links</h2>
+      <div>
+        <nav>
+          <a href="#">Home</a><a href="#">Amenities</a><a href="#">Videos</a>
+          <a href="#">Shopping</a><a href="#">Dinning</a><a href="#">Entertainment</a>
+        </nav>
+        <nav>
+          <a href="#">Neighbourhood</a><a href="#">Old Montreal</a>
+          <a href="#">International Students</a><a href="#">Business Travel</a>
+          <a href="#">RESO (Montreal Underground City)</a><a href="#">Transit</a>
+        </nav>
+      </div>
+    </section>
+  </div>
+  <p class="tdc-footer__copyright">©Copyright 2026. All Rights Reserved.</p>
+</footer>
+
+  <script src="public/script.js"></script>
+</body>
+</html>
